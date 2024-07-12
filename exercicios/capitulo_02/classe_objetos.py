@@ -1,14 +1,16 @@
-class Cachorro:
-    def __init__(self, nome, idade, raca):
+class dog:
+    def __init__(self, nome='rex'):
         self.nome = nome
-        self.idade = idade
-        self.raca = raca
+        self.cor = 'preto'
+        self.patas = 4
 
-    def latir(self):
-        print(f"{self.nome} está latindo: Au au!")
+    def som(self):
+        print(self.nome + ' está latindo')
 
-# Instanciando a classe
-meu_cachorro = Cachorro("Rex", 5, "Labrador")
+meu_cachorro = dog()
+cachorro_vizinho = dog()
+cachorro_bairro = dog('goku')
 
-# Chamando o método latir()
-meu_cachorro.latir()
+cachorro_bairro.som()
+cachorro_vizinho.som()
+meu_cachorro.som()
