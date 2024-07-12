@@ -34,6 +34,7 @@ print('\n aqui está meu conjunto: \n', meu_conjunto)
 #criação do dicionário
 meu_dicionario = {'santos': 'neymar', 'corinthians': 'fenomeno', 'são paulo': 'kaka'}
 
+#escolha de chave pelo usuario
 escolha_dicionario = input('\nEscolha um time para ver seu idolo (santos, corinthians ,são paulo):')
 
 if escolha_dicionario in meu_dicionario :
