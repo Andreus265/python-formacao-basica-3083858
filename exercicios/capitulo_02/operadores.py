@@ -1,6 +1,8 @@
-a=5
-b=4
-if a>=b:
-    print(f'{a} é maior ou igual {b}')
+lista = [10, 20, 30, 40, 50]
+
+valor= int(input('digite o numero para ver se está na lista'))
+
+if valor in lista:
+    print(f"O valor {valor} está na lista.")
 else:
-    print(f'{b} é maior que {a}')
+    print(f"O valor {valor} não está na lista.")
